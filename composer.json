@@ -1,0 +1,26 @@
+{
+    "name": "rickgroen/minesweeper",
+    "autoload": {
+        "psr-4": {
+            "Rickgroen\\Minesweeper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rick Groen",
+            "email": "info@rickgroen.com"
+        }
+    ],
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+        ,
+        "phpstan/phpstan": "^1.11"
+    },
+    "require": {
+        "php-di/php-di": "^7.0",
+        "larapack/dd": "^1.1",
+        "jenssegers/blade": "^2.0",
+        "illuminate/view": "11.7.0",
+        "filp/whoops": "^2.15"
+    }
+}
